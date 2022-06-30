@@ -2,6 +2,9 @@
 /**
  *the first code
  *
+ *main - Entry point
+ *
+ * Return: Always 0 (Success)
  * output as follows
 */
 int main(void)
