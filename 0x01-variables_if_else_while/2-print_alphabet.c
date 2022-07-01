@@ -2,7 +2,7 @@
 
 /**
 * main - entry point
-* 
+*
 * return: Always 0 (Success)
 */
 
@@ -13,7 +13,8 @@ int main(void)
 
 	for(az='a'; az<='z'; az++)
 		{
-		putchar("%c", az);
+            putchar( az);
+
 		}
-	return (0);
+        return (0);
 }
