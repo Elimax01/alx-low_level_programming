@@ -1,19 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-/*
-
-* main page
-*
-* main accesse
-*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
-
 {
-	char alp;
+	char low;
 
-	for (alp = 'a'; alp <='z'; alp ++)
-		putchar(alp);
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
 		putchar('\n');
+
 	return (0);
 }
